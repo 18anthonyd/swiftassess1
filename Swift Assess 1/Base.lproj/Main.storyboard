@@ -28,12 +28,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ofg-3d-SKA">
+                                <state key="normal" title="Counting Button"/>
+                                <connections>
+                                    <action selector="countingButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r44-jg-T0q"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Ofg-3d-SKA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0WA-k4-hGT"/>
                             <constraint firstItem="9EA-NW-Eul" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1k9-Lx-lyr"/>
                             <constraint firstItem="94y-kA-pL4" firstAttribute="top" secondItem="9EA-NW-Eul" secondAttribute="bottom" constant="50" id="2vq-Oz-g9J"/>
                             <constraint firstItem="94y-kA-pL4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FWL-zp-ZXB"/>
+                            <constraint firstItem="Ofg-3d-SKA" firstAttribute="top" secondItem="94y-kA-pL4" secondAttribute="bottom" constant="100" id="QVM-rr-taj"/>
                             <constraint firstItem="9EA-NW-Eul" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="grv-WU-upj"/>
                         </constraints>
                     </view>
