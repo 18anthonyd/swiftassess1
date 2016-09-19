@@ -31,7 +31,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ofg-3d-SKA">
                                 <state key="normal" title="Counting Button"/>
                                 <connections>
-                                    <action selector="countingButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r44-jg-T0q"/>
+                                    <action selector="countingButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hJS-Gu-5hQ"/>
                                 </connections>
                             </button>
                         </subviews>
